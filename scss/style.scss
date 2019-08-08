@@ -1,0 +1,52 @@
+i {
+  color: red;
+  font-size: 35px;
+  margin: 0 4px;
+  background-color: aliceblue;
+  border-radius: 5000px;
+
+  &:hover {
+    color: #c70000;
+  }
+}
+
+.icons {
+    display: none;
+}
+
+.about{
+    display: none;
+}
+
+img {
+  height: 500px;
+  width: 400px;
+  background-size: cover;
+  padding: 30px;
+  
+}
+
+.content{
+    position: relative;
+}
+
+.card-my:hover{
+    position: absolute;
+    .icons {
+    position: absolute;
+    display: inline;
+    top: 60%;
+    left: 26%;
+    
+}
+
+.about{
+    position: absolute;
+    display: inline;
+    top: 70%;
+    left: 26%;
+    color: white
+
+}
+}
+
